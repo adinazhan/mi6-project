@@ -9,6 +9,7 @@ use App\Models\Status;
 
 class Person extends Model
 {
+
     public function aliases()
     {
         return $this->hasMany(Alias::class);
