@@ -1,0 +1,29 @@
+@import "navigation";
+
+#people-of-interest {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    background-color: #2b5554;
+}
+
+.main {
+    align-items: center;
+    background: #2b5554 url("/public/images/mi6-seal-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 1rem;
+
+    h1 {
+        font-weight: 200;
+        font-size: 4rem;
+        margin-top: 0;
+    }
+}

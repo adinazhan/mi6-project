@@ -1,6 +1,14 @@
-import People from "../People";
+import Navigation from "./navigation";
+
+import Main from "./Main";
 
 function App() {
-    return <People />;
+    return (
+        <>
+            <Navigation />
+            <Main />
+        </>
+    );
 }
+
 export default App;
