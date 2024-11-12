@@ -25,7 +25,7 @@ class PersonController extends Controller
 
     public function show($person_id)
     {
-        $person = Person::with(['aliases', 'images', 'statuses'])->where('id', $person_id)->get();
+        $person = Person::with(['aliases', 'images', 'statuses', 'missions'])->where('id', $person_id)->get();
         return $person;
     }
 }
